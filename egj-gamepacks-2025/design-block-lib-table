@@ -1,0 +1,4 @@
+(design_block_lib_table
+  (version 7)
+  (lib (name "SP3012-06UTG")(type "KiCad")(uri "${KIPRJMOD}/SP3012-06UTG")(options "")(descr ""))
+)

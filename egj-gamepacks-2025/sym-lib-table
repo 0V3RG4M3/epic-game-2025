@@ -3,4 +3,5 @@
   (lib (name "GameBoy_GamePak_AGB-002_Symbol")(type "KiCad")(uri "${KIPRJMOD}/symbols/GameBoy_GamePak_AGB-002_Symbol.kicad_sym")(options "")(descr ""))
   (lib (name "MCU_RaspberryPi_RP2350")(type "Legacy")(uri "${KIPRJMOD}/MCU_RaspberryPi_RP2350.lib")(options "")(descr ""))
   (lib (name "Connector_GameBoy")(type "Legacy")(uri "${KIPRJMOD}/Connector_GameBoy.lib")(options "")(descr ""))
+  (lib (name "SP3012-06UTG")(type "KiCad")(uri "${KIPRJMOD}/SP3012-06UTG/SP3012-06UTG.kicad_sym")(options "")(descr ""))
 )
