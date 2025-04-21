@@ -3,4 +3,5 @@
   (lib (name "RP2350_80QFN_minimal")(type "KiCad")(uri "${KIPRJMOD}/RP2350_80QFN_minimal.pretty")(options "")(descr ""))
   (lib (name "Connector_GameBoy")(type "KiCad")(uri "${KIPRJMOD}/Connector_GameBoy.pretty")(options "")(descr ""))
   (lib (name "symbols")(type "KiCad")(uri "${KIPRJMOD}/symbols")(options "")(descr ""))
+  (lib (name "VL6180XV0NR_1")(type "KiCad")(uri "${KIPRJMOD}/VL6180XV0NR_1")(options "")(descr ""))
 )

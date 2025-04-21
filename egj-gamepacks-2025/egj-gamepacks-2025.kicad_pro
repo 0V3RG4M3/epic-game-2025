@@ -743,6 +743,22 @@
     [
       "2a9955bc-bd61-45c5-81ed-8dd8c377b4a4",
       "Root"
+    ],
+    [
+      "6264ccfb-0caf-4f4f-bc5f-147ee1b915a0",
+      "sensor_part"
+    ],
+    [
+      "f21463e0-70ce-4004-b15a-48b7c800f401",
+      "RP2350"
+    ],
+    [
+      "7585109a-9752-464c-8e04-1e8e4be4df59",
+      "GBA_Connector"
+    ],
+    [
+      "f0d934e7-dbe2-4b9a-81ab-c80699e3b9a0",
+      "Power"
     ]
   ],
   "text_variables": {}

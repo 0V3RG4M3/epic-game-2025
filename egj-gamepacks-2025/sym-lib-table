@@ -4,4 +4,5 @@
   (lib (name "MCU_RaspberryPi_RP2350")(type "Legacy")(uri "${KIPRJMOD}/MCU_RaspberryPi_RP2350.lib")(options "")(descr ""))
   (lib (name "Connector_GameBoy")(type "Legacy")(uri "${KIPRJMOD}/Connector_GameBoy.lib")(options "")(descr ""))
   (lib (name "SP3012-06UTG")(type "KiCad")(uri "${KIPRJMOD}/SP3012-06UTG/SP3012-06UTG.kicad_sym")(options "")(descr ""))
+  (lib (name "VL6180XV0NR_1")(type "KiCad")(uri "${KIPRJMOD}/VL6180XV0NR_1/VL6180XV0NR_1.kicad_sym")(options "")(descr ""))
 )
