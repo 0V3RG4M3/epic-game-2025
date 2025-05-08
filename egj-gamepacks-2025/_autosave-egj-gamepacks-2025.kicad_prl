@@ -1,21 +1,24 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 29,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
-      "VBUS",
       "GND",
+      "+3V3",
       "Net-(C5-Pad1)",
       "/RP2350/+1V1",
       "Net-(R6-Pad1)",
       "Net-(U4-USB_DP)",
       "Net-(U4-USB_DM)",
+      "+3V3_USB",
+      "+1V8",
       "Net-(U11-SCL)",
       "Net-(U11-SDA)",
       "Net-(U12-OE)",
       "Net-(U4-VREG_AVDD)",
+      "+3V3_GBA",
       "/Power/USB.USB_D_C+",
       "/Power/USB.USB_D_C-",
       "Net-(U12-A1)",
@@ -82,7 +85,7 @@
       "/RP2350/BNO055_UART.RX"
     ],
     "high_contrast_mode": 0,
-    "net_color_mode": 2,
+    "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
       "pads": 1.0,
@@ -121,12 +124,12 @@
       "pads",
       "zones",
       "drc_warnings",
-      "drc_exclusions",
+      "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0003fff5_02000005",
-    "zone_display_mode": 1
+    "visible_layers": "ffffffff_ffffffff_fffffff5_55555551",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_type": "",
@@ -134,7 +137,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "egj-gamepacks-2025.kicad_prl",
+    "filename": "_autosave-egj-gamepacks-2025.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

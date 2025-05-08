@@ -103,6 +103,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -465,15 +466,45 @@
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_drill": 0.3,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.8,
+        "via_diameter": 0.5,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "name": "GCC GND",
+        "pcb_color": "rgb(255, 140, 67)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "VBUS",
+        "pcb_color": "rgb(79, 0, 255)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "qspi",
+        "pcb_color": "rgb(255, 67, 0)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.6,
+        "via_drill": 0.00762
       }
     ],
     "meta": {
@@ -609,6 +640,26 @@
       {
         "netclass": "Default",
         "pattern": "Net-(J1-Pad9)"
+      },
+      {
+        "netclass": "VBUS",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "GCC GND",
+        "pattern": "+1V8"
+      },
+      {
+        "netclass": "GCC GND",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "GCC GND",
+        "pattern": "+3V3_USB"
+      },
+      {
+        "netclass": "GCC GND",
+        "pattern": "+3V3_GBA"
       }
     ]
   },
