@@ -2547,7 +2547,149 @@
 			)
 			(embedded_fonts no)
 		)
-	)
+	
+        	(symbol "Regulator_Linear:XC6206PxxxMR"
+    		(pin_names
+    			(offset 0.254)
+    		)
+    		(exclude_from_sim no)
+    		(in_bom yes)
+    		(on_board yes)
+    		(property "Reference" "U"
+    			(at -3.81 3.175 0)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Value" "XC6206PxxxMR"
+    			(at 0 3.175 0)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(justify left)
+    			)
+    		)
+    		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+    			(at 0 5.715 0)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    					(italic yes)
+    				)
+    				(hide yes)
+    			)
+    		)
+    		(property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf"
+    			(at 0 0 0)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(hide yes)
+    			)
+    		)
+    		(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
+    			(at 0 0 0)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(hide yes)
+    			)
+    		)
+    		(property "ki_keywords" "Torex LDO Voltage Regulator Fixed Positive"
+    			(at 0 0 0)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(hide yes)
+    			)
+    		)
+    		(property "ki_fp_filters" "SOT?23?3*"
+    			(at 0 0 0)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(hide yes)
+    			)
+    		)
+    		(symbol "XC6206PxxxMR_0_1"
+    			(rectangle
+    				(start -5.08 1.905)
+    				(end 5.08 -5.08)
+    				(stroke
+    					(width 0.254)
+    					(type default)
+    				)
+    				(fill
+    					(type background)
+    				)
+    			)
+    		)
+    		(symbol "XC6206PxxxMR_1_1"
+    			(pin power_in line
+    				(at -7.62 0 0)
+    				(length 2.54)
+    				(name "VI"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "3"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin power_in line
+    				(at 0 -7.62 90)
+    				(length 2.54)
+    				(name "GND"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin power_out line
+    				(at 7.62 0 180)
+    				(length 2.54)
+    				(name "VO"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    		)
+    		(embedded_fonts no)
+    	)
+  )
 	(text "Power"
 		(exclude_from_sim no)
 		(at 77.47 69.85 0)
@@ -2886,6 +3028,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 72.39 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 73.3552 39.37 0)
 			(effects
@@ -3018,6 +3169,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C26537"
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
@@ -3357,6 +3517,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C428495"
+			(at 48.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal"
 			(at 52.07 87.63 0)
 			(effects
@@ -3436,6 +3605,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C2906768"
+			(at 191.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
@@ -3572,6 +3750,15 @@
 				(justify right)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 36.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 37.7952 39.37 0)
 			(effects
@@ -3639,6 +3826,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C15850"
+			(at 81.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -3911,6 +4107,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C2906768"
+			(at 191.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
 			(at 196.85 77.47 0)
 			(effects
@@ -3976,6 +4181,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C2906768"
+			(at 191.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
@@ -4112,6 +4326,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 116.84 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 117.8052 90.17 0)
 			(effects
@@ -4215,77 +4438,6 @@
 			(project ""
 				(path "/2a9955bc-bd61-45c5-81ed-8dd8c377b4a4/f0d934e7-dbe2-4b9a-81ab-c80699e3b9a0"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AP7361C-28E")
-		(at 54.61 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebfb1cb3-384b-43e6-aa8c-4162b446b715")
-		(property "Reference" "U13"
-			(at 54.61 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP7361C-28E"
-			(at 54.61 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 54.61 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7361C.pdf"
-			(at 57.15 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, 2.8V fixed output, SOT-223"
-			(at 54.61 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c83e4c6b-3e11-43bf-84e7-f3911bcaf78b")
-		)
-		(pin "1"
-			(uuid "63e4896c-df31-45ac-a1d2-7ec45204b3c1")
-		)
-		(pin "2"
-			(uuid "a261dfa5-cf87-4238-bf68-9a009d641e43")
-		)
-		(instances
-			(project "egj-gamepacks-2025"
-				(path "/2a9955bc-bd61-45c5-81ed-8dd8c377b4a4/f0d934e7-dbe2-4b9a-81ab-c80699e3b9a0"
-					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -4492,4 +4644,83 @@
 			)
 		)
 	)
+  (symbol (lib_id "Regulator_Linear:XC6206PxxxMR") (at 54.61 31.75 0) (unit 1)
+    (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "018471ff-84f7-4ea8-a0a0-be4394dfc72d")
+    (property "Reference" "U13"
+      (at 50.8 34.925 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    )
+    (property "Value" "XC6206P282MR"
+      (at 54.61 34.925 0)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(justify left)
+    			)
+    )
+		(property "LCSC" "C347374"
+			(at 54.61 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+      (at 54.61 37.465 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+    				(font
+    					(size 1.27 1.27)
+    					(italic yes)
+    				)
+    			)
+    )
+    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7361C.pdf"
+      (at 54.61 31.75 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    )
+    (property "Description" "1A Low Dropout regulator, positive, 2.8V fixed output, SOT-223"
+      (at 54.61 31.75 0)
+      (hide yes)
+      (show_name no)
+      (do_not_autoplace no)
+      (effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    )
+    (pin "1" (uuid "92b4811e-0ea6-414c-be5d-d0656ac11bd1"))
+    (pin "2" (uuid "3f41adeb-daa4-4346-b633-c0ae1deb5152"))
+    (pin "3" (uuid "707a4d15-74c0-456e-9c8e-f19bce59aba0"))
+    (instances
+      (project "egj-gamepacks-2025"
+        (path "/2a9955bc-bd61-45c5-81ed-8dd8c377b4a4/f0d934e7-dbe2-4b9a-81ab-c80699e3b9a0"
+          (reference "U13")
+          (unit 1)
+        )
+      )
+    )
+  )
 )
