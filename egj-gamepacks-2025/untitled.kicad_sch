@@ -2225,7 +2225,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+1V8"
+		(symbol "power:+2V8"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2246,7 +2246,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+1V8"
+			(property "Value" "+2V8"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -2272,7 +2272,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(property "Description" "Power symbol creates a global label with name \"+2V8\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2290,7 +2290,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+1V8_0_1"
+			(symbol "+2V8_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2328,7 +2328,7 @@
 					)
 				)
 			)
-			(symbol "+1V8_1_1"
+			(symbol "+2V8_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -5120,7 +5120,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
+		(lib_id "power:+2V8")
 		(at 161.29 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5138,7 +5138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V8"
+		(property "Value" "+2V8"
 			(at 161.29 36.83 0)
 			(effects
 				(font
@@ -5164,7 +5164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+		(property "Description" "Power symbol creates a global label with name \"+2V8\""
 			(at 161.29 41.91 0)
 			(effects
 				(font
@@ -5793,7 +5793,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
+		(lib_id "power:+2V8")
 		(at 35.56 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5811,7 +5811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V8"
+		(property "Value" "+2V8"
 			(at 35.56 125.73 0)
 			(effects
 				(font
@@ -5837,7 +5837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+		(property "Description" "Power symbol creates a global label with name \"+2V8\""
 			(at 35.56 130.81 0)
 			(effects
 				(font
@@ -6061,7 +6061,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
+		(lib_id "power:+2V8")
 		(at 132.08 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6079,7 +6079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V8"
+		(property "Value" "+2V8"
 			(at 132.08 143.51 0)
 			(effects
 				(font
@@ -6105,7 +6105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+		(property "Description" "Power symbol creates a global label with name \"+2V8\""
 			(at 132.08 148.59 0)
 			(effects
 				(font
