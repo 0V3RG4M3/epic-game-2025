@@ -5458,7 +5458,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "47K"
 			(at 55.88 138.4299 0)
 			(effects
 				(font
@@ -5467,7 +5467,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C25792"
 			(at 53.34 137.16 0)
 			(effects
 				(font
@@ -5690,7 +5690,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "47K"
 			(at 43.18 138.4299 0)
 			(effects
 				(font
@@ -5699,7 +5699,7 @@
 				(justify right)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C25792"
 			(at 45.72 137.16 0)
 			(effects
 				(font
@@ -6043,7 +6043,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "10K"
 			(at 71.12 138.4299 0)
 			(effects
 				(font
@@ -6052,7 +6052,7 @@
 				(justify right)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C25744"
 			(at 73.66 137.16 0)
 			(effects
 				(font
@@ -6482,7 +6482,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "10K"
 			(at 83.82 138.4299 0)
 			(effects
 				(font
@@ -6491,7 +6491,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C25900"
+		(property "LCSC" "C25744"
 			(at 81.28 137.16 0)
 			(effects
 				(font
