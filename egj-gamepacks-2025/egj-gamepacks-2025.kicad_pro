@@ -550,6 +550,10 @@
       {
         "netclass": "USB",
         "pattern": "*USB_D*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*+3V3_USB"
       }
     ]
   },
