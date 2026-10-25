@@ -2225,7 +2225,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+1V8"
+		(symbol "power:+2V8"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2246,7 +2246,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+1V8"
+			(property "Value" "+2V8"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -2272,7 +2272,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(property "Description" "Power symbol creates a global label with name \"+2V8\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2290,7 +2290,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+1V8_0_1"
+			(symbol "+2V8_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2328,7 +2328,7 @@
 					)
 				)
 			)
-			(symbol "+1V8_1_1"
+			(symbol "+2V8_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2866,6 +2866,66 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 62.23) (xy 71.12 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c222e096-0e80-4c7a-926f-dc7e9bd353b3")
+	)
+	(wire
+		(pts
+			(xy 71.12 62.23) (xy 71.12 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b569d871-06c4-4c1c-a60a-cdd8923166c8")
+	)
+	(wire
+		(pts
+			(xy 71.12 64.77) (xy 81.28 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3caa7c-a44e-4b70-887a-b697aa01e708")
+	)
+	(wire
+		(pts
+			(xy 81.28 64.77) (xy 81.28 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ac84b4-1802-4497-9a4d-d22629ca135b")
+	)
+	(wire
+		(pts
+			(xy 73.66 62.23) (xy 73.66 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab43ce25-6138-478a-bc95-1e9adce200bc")
+	)
+	(wire
+		(pts
+			(xy 73.66 57.15) (xy 81.28 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed252319-b981-4933-a7fc-5f5261df6897")
+	)
+	(wire
+		(pts
 			(xy 170.18 77.47) (xy 154.94 77.47)
 		)
 		(stroke
@@ -3236,16 +3296,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 57.15) (xy 81.28 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c020708-c842-4ea0-bb25-6fc95d50e557")
-	)
-	(wire
-		(pts
 			(xy 53.34 158.75) (xy 86.36 158.75)
 		)
 		(stroke
@@ -3433,16 +3483,6 @@
 			(type default)
 		)
 		(uuid "84ff5f4d-84d9-44fc-bc02-a6dbce22c241")
-	)
-	(wire
-		(pts
-			(xy 52.07 62.23) (xy 73.66 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88303105-3160-4e91-b6ef-60cd759f9d9e")
 	)
 	(wire
 		(pts
@@ -4142,6 +4182,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 43.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 43.18 70.612 90)
 			(effects
@@ -4276,6 +4325,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 77.47 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 64.008 90)
 			(effects
@@ -4408,6 +4466,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2906768"
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4608,6 +4675,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C25105"
+			(at 62.23 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 62.23 157.988 90)
 			(effects
@@ -4675,6 +4751,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 146.05 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 149.86 152.7048 0)
 			(effects
@@ -4740,6 +4825,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C1779"
+			(at 146.05 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
@@ -4810,6 +4904,15 @@
 				(justify right)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 127 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 126.0348 48.26 0)
 			(effects
@@ -4875,6 +4978,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2906768"
+			(at 204.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5012,6 +5124,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C28323"
+			(at 161.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 162.2552 49.53 0)
 			(effects
@@ -5120,7 +5241,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
+		(lib_id "power:+2V8")
 		(at 161.29 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5138,7 +5259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V8"
+		(property "Value" "+2V8"
 			(at 161.29 36.83 0)
 			(effects
 				(font
@@ -5164,7 +5285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+		(property "Description" "Power symbol creates a global label with name \"+2V8\""
 			(at 161.29 41.91 0)
 			(effects
 				(font
@@ -5337,13 +5458,22 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "47K"
 			(at 55.88 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C25792"
+			(at 53.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -5415,6 +5545,15 @@
 				(justify right)
 			)
 		)
+		(property "LCSC" "C28323"
+			(at 113.03 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 112.0648 87.63 0)
 			(effects
@@ -5482,6 +5621,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 162.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 162.56 66.548 90)
 			(effects
@@ -5542,13 +5690,22 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "47K"
 			(at 43.18 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "LCSC" "C25792"
+			(at 45.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -5751,6 +5908,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C25105"
+			(at 62.23 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 62.23 149.098 90)
 			(effects
@@ -5793,7 +5959,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
+		(lib_id "power:+2V8")
 		(at 35.56 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5811,7 +5977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V8"
+		(property "Value" "+2V8"
 			(at 35.56 125.73 0)
 			(effects
 				(font
@@ -5837,7 +6003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+		(property "Description" "Power symbol creates a global label with name \"+2V8\""
 			(at 35.56 130.81 0)
 			(effects
 				(font
@@ -5877,13 +6043,22 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "10K"
 			(at 71.12 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -6021,6 +6196,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2906768"
+			(at 199.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
 			(at 204.47 76.2 0)
 			(effects
@@ -6061,7 +6245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
+		(lib_id "power:+2V8")
 		(at 132.08 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6079,7 +6263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V8"
+		(property "Value" "+2V8"
 			(at 132.08 143.51 0)
 			(effects
 				(font
@@ -6105,7 +6289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+		(property "Description" "Power symbol creates a global label with name \"+2V8\""
 			(at 132.08 148.59 0)
 			(effects
 				(font
@@ -6150,6 +6334,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2906768"
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6220,6 +6413,15 @@
 				(justify right)
 			)
 		)
+		(property "LCSC" "C113854"
+			(at 115.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 114.6048 48.26 0)
 			(effects
@@ -6280,13 +6482,22 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7K"
+		(property "Value" "10K"
 			(at 83.82 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 81.28 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
@@ -6424,6 +6635,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 203.2 65.278 90)
 			(effects
@@ -6483,12 +6703,21 @@
 				)
 			)
 		)
-		(property "Value" "VL6180XV0NR_1"
+		(property "Value" "VL6180V1NR/1"
 			(at 106.68 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C2655167"
+			(at 106.68 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "VL6180XV0NR_1:LGA12R75P2X6_280X480X110"
@@ -6670,6 +6899,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C17206"
+			(at 180.34 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 180.34 93.98 0)
 			(effects
@@ -6792,6 +7030,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C93216"
+			(at 97.79 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm"
@@ -7007,6 +7254,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C28323"
+			(at 195.58 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
